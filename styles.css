@@ -1,0 +1,18 @@
+.bodyContainer {
+    display: flex;
+
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.contentContainer {
+    display: grid;
+
+    
+}
