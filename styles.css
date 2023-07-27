@@ -25,8 +25,13 @@
 .bottom{
     display: flex;
     margin: 3vh;
+    justify-content: end;
+}
+.greetings{
+    align-self: flex-end;
     
 }
+
 .menuContainer {
     display: flex;
     flex-direction: column;
@@ -51,4 +56,12 @@ h1{
 }
 li{
     margin: 10px;
+}
+.icons {
+    width: 30px;
+    height: 30px;
+}
+.profile {
+    width: 85px;
+    height: 85px;
 }
