@@ -6,13 +6,49 @@
 .mainContainer {
     display: flex;
     flex-direction: column;
+    
 }
 
+.dashboardContainer {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10vh 25vh 20vh;
+    grid-template-columns: 20vw;
+    gap: 1vh;
+    font-size: 2em;
+    
+    background-color: rgba(11, 73, 114, 0.788);
+    color: white;
+}
 
+.top,
+.bottom{
+    display: flex;
+    margin: 3vh;
+    
+}
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    
+}
 
 
 .contentContainer {
     display: grid;
 
     
+}
+
+input {
+    width: 30vw;
+    background-color: lightgray;
+}
+
+h1{
+    font-weight: bold;
+}
+li{
+    margin: 10px;
 }
