@@ -32,9 +32,10 @@
     
 }
 
-.menuContainer {
-    display: flex;
-    flex-direction: column;
+.headerContainer {
+    display: grid;
+    grid-template-columns: 50vw 30vw;
+    grid-template-rows: 10vh 10vh;
     width: 80vw;
     
 }
@@ -48,11 +49,19 @@
 
 input {
     width: 30vw;
+    height: 2vh;
     background-color: lightgray;
 }
 
 h1{
     font-weight: bold;
+    align-self: center;
+
+}
+.userName{
+    font-size: 2em;
+    align-self: flex-end;
+    
 }
 li{
     margin: 10px;
@@ -60,8 +69,52 @@ li{
 .icons {
     width: 30px;
     height: 30px;
+    
 }
 .profile {
     width: 85px;
     height: 85px;
+    align-self: flex-end;
+    
+}
+button {
+    width: 5vw;
+    height: 3vh;
+}
+
+.topRight,
+.topLeft,
+.bottomLeft,
+.bottomRight {
+    display: grid;
+
+}
+
+.topLeft{
+    grid-template-columns: 30px 30vw;
+    grid-template-rows: 10vh;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.topRight {
+    grid-template-columns: 30px 85px 10vw;
+    grid-template-rows: 10vh;
+    align-items:flex-end;
+    
+}
+.notiBell{
+    align-self: center;
+}
+
+.bottomLeft{
+    grid-template-columns: 85px 15vw;
+    grid-template-rows: 10vh;
+}
+
+.bottomRight{
+    grid-template-columns: 6vw 6vw 6vw;
+    grid-template-rows: 3vh;
+    justify-content: flex-end;
+    align-content: flex-end;
 }
