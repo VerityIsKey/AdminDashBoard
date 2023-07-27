@@ -60,7 +60,8 @@ h1{
 }
 .userName{
     font-size: 2em;
-    align-self: flex-end;
+    align-self: center;
+    justify-self: center;
     
 }
 li{
@@ -71,10 +72,16 @@ li{
     height: 30px;
     
 }
-.profile {
+.profileBottom {
     width: 85px;
     height: 85px;
     align-self: flex-end;
+    
+}
+.profileTop {
+    width: 85px;
+    height: 85px;
+    align-self: center;
     
 }
 button {
@@ -98,7 +105,7 @@ button {
 }
 
 .topRight {
-    grid-template-columns: 30px 85px 10vw;
+    grid-template-columns: 50px 85px 10vw;
     grid-template-rows: 10vh;
     align-items:flex-end;
     
@@ -118,3 +125,4 @@ button {
     justify-content: flex-end;
     align-content: flex-end;
 }
+
