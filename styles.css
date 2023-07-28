@@ -6,7 +6,7 @@
 .mainContainer {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .dashboardContainer {
@@ -44,7 +44,8 @@
 .contentContainer {
     display: grid;
 
-    
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 20vh 20vh 20vh;
 }
 
 input {
