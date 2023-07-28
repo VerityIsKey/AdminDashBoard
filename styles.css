@@ -6,7 +6,7 @@
 .mainContainer {
     display: flex;
     flex-direction: column;
-
+    
 }
 
 .dashboardContainer {
@@ -127,3 +127,7 @@ button {
     align-content: flex-end;
 }
 
+.card{
+    width: 20vw;
+    height: 20vh;
+}
