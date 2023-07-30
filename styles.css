@@ -34,18 +34,22 @@
 
 .headerContainer {
     display: grid;
-    grid-template-columns: 50vw 30vw;
+    grid-template-columns: 45vw 35vw;
     grid-template-rows: 10vh 10vh;
     width: 80vw;
     
 }
 
 
-.contentContainer {
+.container {
     display: grid;
     background-color: rgb(231, 225, 225);
-    grid-template-columns: 30vw 30vw 19vw;
-    grid-template-rows: 5vh 23vh 23vh 23vh;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: 27vh 27vh 26vh;
+}
+.withTitle {
+    display: flex;
+    flex-direction: column;
 }
 
 input {
@@ -63,7 +67,7 @@ h1{
 h2{
     font-weight: bold;
     font-size: 1.5em;
-    align-self: flex-end;
+    align-self: center;
     justify-self: center;
 }
 .userName{
@@ -93,8 +97,9 @@ li{
     
 }
 button {
-    width: 5vw;
+    width: 10vw;
     height: 3vh;
+
 }
 
 .topRight,
@@ -128,10 +133,12 @@ button {
 }
 
 .bottomRight{
-    grid-template-columns: 6vw 6vw 6vw;
+    grid-template-columns: 10vw 10vw 10vw;
     grid-template-rows: 3vh;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: flex-end;
+    column-gap: 1vw;
+    padding-bottom: 1vh;
 }
 
 .projectCard{
@@ -146,8 +153,23 @@ button {
 
 .card {
     background-color: white;
+    align-self: center;
     justify-self: center;
     border: solid black;
     width: 15vw;
-    height: 30vh;
+    height: 35vh;
+    
+}
+
+
+
+.contentContainer{
+    display: flex;
+}
+.sideBar{
+    background-color: rgb(231, 225, 225);
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: 20vw 20vw;
+    row-gap: 2vh;
 }
