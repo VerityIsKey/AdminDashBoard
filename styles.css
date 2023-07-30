@@ -41,10 +41,10 @@
 }
 
 
-.container {
+.contentContainer {
     display: grid;
     background-color: rgb(231, 225, 225);
-    grid-template-columns: 30vw 30vw;
+    grid-template-columns: 30vw 30vw 20vw;
     grid-template-rows: 27vh 27vh 26vh;
 }
 .withTitle {
@@ -149,6 +149,8 @@ button {
     justify-self: center;
 
     background-color: white;
+
+    padding: 2vh;
 }
 
 .card {
@@ -163,13 +165,20 @@ button {
 
 
 
-.contentContainer{
-    display: flex;
+
+#sidebarAnnouncements{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
-.sideBar{
-    background-color: rgb(231, 225, 225);
-    display: grid;
-    grid-template-columns: 20vw;
-    grid-template-rows: 20vw 20vw;
-    row-gap: 2vh;
+
+#sidebarTrending {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+   align-self:self-end;
+
 }
