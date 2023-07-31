@@ -16,6 +16,8 @@
     grid-template-columns: 20vw;
     gap: 1vh;
     font-size: 2em;
+    align-self:last baseline;
+    ; align-self:last baseline;
     
     background-color: rgba(11, 73, 114, 0.788);
     color: white;
@@ -46,6 +48,8 @@
     background-color: rgb(231, 225, 225);
     grid-template-columns: 30vw 30vw 20vw;
     grid-template-rows: 27vh 27vh 26vh;
+
+    
 }
 .withTitle {
     display: flex;
